@@ -1,25 +1,25 @@
 #!/bin/sh
 apt-get update
 java -version
-apt-get install default-jre
-apt-get install default-jdk
-apt-get install openjdk-7-jre 
-apt-get install openjdk-7-jdk
-apt-get install python-software-properties
-apt-get update
-apt-get install oracle-java8-installer
-update-alternatives --config java
-update-alternatives --config javac
-update-alternatives --config java
-apt-get install maven
-apt-get update
-apt-get install maven
-apt-get update
-apt-get upgrade
-apt-get install git
-apt-get install tree
-apt-get update
-apt-get install rar
-apt-get update
-apt-get install zip
-apt-get install unzip
+sudo apt-get install default-jre
+sudo apt-get install default-jdk
+sudo apt-get install openjdk-7-jre 
+sudo apt-get install openjdk-7-jdk
+sudo apt-get install python-software-properties
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+sudo update-alternatives --config java
+sudo update-alternatives --config javac
+sudo update-alternatives --config java
+sudo apt-get install maven
+sudo apt-get update
+sudo apt-get install maven
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git
+sudo apt-get install tree
+sudo apt-get update
+sudo apt-get install rar
+sudo apt-get update
+sudo apt-get install zip
+sudo apt-get install unzip
