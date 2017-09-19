@@ -1,10 +1,12 @@
 #!/bin/bash
 echo "enter the nums"
 read num
-for ((n = 0; n <= $num; n++))
+for ((n = 1; n <= $num; n++))
 do
-sum=` expr $sum + $n `
+echo "entet the values"
+read b
+sum=` expr $sum + $b `
 done
 echo "$sum"
-a=` expr $sum / 2 `
+a=` expr $sum / $num `
 echo "average is : $a"
