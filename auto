@@ -1,0 +1,27 @@
+#!/bin/sh
+ apt-get update
+java -version
+apt-get install default-jre
+apt-get install default-jdk
+apt-get install openjdk-7-jre 
+apt-get install openjdk-7-jdk
+apt-get install python-software-properties
+add-apt-repository ppa:webupd8team/java
+apt-get update
+apt-get install oracle-java8-installer
+update-alternatives --config java
+update-alternatives --config javac
+update-alternatives --config java
+nano /etc/environment
+apt-get install maven
+apt-get update
+apt-get install maven
+apt-get update
+apt-get upgrade
+apt-get install git
+apt-get install tree
+apt-get update
+apt-get install rar
+apt-get update
+apt-get install zip
+apt-get install unzip
