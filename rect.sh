@@ -1,7 +1,6 @@
 #!/bin/sh
-echo  "enter the value of length & width"
-read length
-read width
+width=$1
+length=$2
 area=` expr $length \* $width `
 echo "area of the rectangle is : $area"
 
